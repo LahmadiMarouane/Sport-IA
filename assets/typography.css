@@ -1,0 +1,86 @@
+body {
+    font-family: sans-serif;
+    background-color: #e0eaee;
+    background-image: url("Monnaie.jpg");
+}
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+
+.link1 {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    position: absolute;
+    top: 12%;
+    left: 20%;
+}
+.link2 {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    position: absolute;
+    top: 12%;
+    left: 38%;
+}
+.link3 {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    position: absolute;
+    top: 12%;
+    left: 60%;
+}
+a:hover {
+    color: rgb(226, 228, 238);
+    background-color: rgb(17, 144, 17);
+  }
+.dropdown {
+    
+    
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.img {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}

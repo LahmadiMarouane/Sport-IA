@@ -1,6 +1,4 @@
 import pandas as pd
-#import numpy as np
-
 from holoviews import opts, dim
 
 import holoviews as hv

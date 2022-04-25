@@ -3,7 +3,6 @@ import pandas as pd
 import plotly.graph_objs as go
 import radar_chart
 import chord
-from plotly.offline import iplot
 import dash_bootstrap_components as dbc
 from holoviews.plotting.plotly.dash import to_dash
 

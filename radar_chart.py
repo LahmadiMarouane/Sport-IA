@@ -1,12 +1,8 @@
 import pandas as pd   
-#import numpy as np
 import matplotlib.pyplot as plt
-import seaborn as sns
 from chart_studio import plotly
-from plotly import tools
 import plotly.offline as py
 import plotly.graph_objs as go
-import plotly.figure_factory as ff
 from plotly.offline import init_notebook_mode, iplot
 #init_notebook_mode(connected=True) 
 
